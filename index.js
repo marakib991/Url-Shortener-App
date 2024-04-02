@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.post('/', (req, res) => {
-  const longUrl = req.body.url; // Assuming the POST request contains a JSON body with a 'url' field
+  const longUrl = req.body.url; 
   tinyurl.shorten(longUrl, function(shortUrl) {
     res.render("input", {msg: shortUrl})
   });
