@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+  <form action="/" method="post">
+    <input type="url" name="url" id="url">
+    <button type="submit">Generate new Shortend URL</button>
+  </form>
+
+  <% if (msg) { %>
+    <h1>Your new generated short URL: <a href="<%= msg %>"><%= msg %></a></h1>
+  <% } %>
+</body>
+</html>

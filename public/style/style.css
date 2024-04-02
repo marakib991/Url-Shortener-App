@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(25, 100, 100);
+}
+
+form{
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+
+input{
+  font-size: 18px;
+  padding: 10px;
+}
+
+#url {
+  width: 400px; /* Adjust width as needed */
+}
+
+button{
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
